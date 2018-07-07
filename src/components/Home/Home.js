@@ -16,7 +16,7 @@ class Home extends React.Component {
                   <span className="the">The</span>
                 </span>
               </h1>
-              <h3 classname="tagline">
+              <h3 className="tagline">
                 <span>Fresh Seafood Market</span>
               </h3>
             </header>
