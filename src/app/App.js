@@ -10,8 +10,10 @@ import Navbar from '../components/Navbar/Navbar.js';
 // import OrderSpa from '../components/OrderSpa/OrderSpa.js';
 import Register from '../components/Register/Register.js';
 // import SingleOrder from '../components/SingleOrder/SingleOrder';
+import fbConnection from '../firebaseRequests/connection';
+fbConnection();
 
-import './App.css';
+// import './App.css';
 
 const PrivateRoute = ({ component: Component, authed, ...rest }) => {
   return (
