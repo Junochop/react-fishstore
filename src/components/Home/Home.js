@@ -15,6 +15,7 @@ class Home extends React.Component {
                   <span className="of">Of</span>
                   <span className="the">The</span>
                 </span>
+                day
               </h1>
               <h3 className="tagline">
                 <span>Fresh Seafood Market</span>
