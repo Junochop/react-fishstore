@@ -5,12 +5,12 @@ import './Order.css';
 class Order extends React.Component {
   render () {
     return (
-      <div className="Order">
-        <h1>Order</h1>
-      </div>
+      <h1 className="Order">
+        Order
+      </h1>
 
     );
   }
-}
+};
 
 export default Order;
