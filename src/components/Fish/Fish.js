@@ -9,7 +9,7 @@ class Fish extends React.Component {
   }
   render () {
     const  {details} = this.props;
-    console.error(details.image);
+
     const isAvailable = details.status === 'available';
     const image = require(`${details.image}`);
     return (
