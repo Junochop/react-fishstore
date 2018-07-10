@@ -4,6 +4,9 @@ import formatPrice from '../../helpers';
 import './Fish.css';
 
 class Fish extends React.Component {
+  addClickEvent = () => {
+    this.props.addToOrder(this.props.details.id);
+  }
   render () {
     const  {details} = this.props;
     console.error(details.image);
@@ -19,6 +22,7 @@ class Fish extends React.Component {
         <p>{details.desc}</p>
         <button
           disabled={!isAvailable}
+          onClick={this.addClickEvent}
         >
           {isAvailable ? 'Add to Order!' : 'SOld Out!'}
         </button>
