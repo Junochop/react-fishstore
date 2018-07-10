@@ -12,8 +12,13 @@ const logoutUser = () => {
   return firebase.auth().signOut();
 };
 
+const getUid = () => {
+  return firebase.auth().currentUser.uid;
+};
+
 export default {
   registerUser,
   loginUser,
   logoutUser,
+  getUid,
 };
