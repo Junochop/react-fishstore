@@ -18,7 +18,7 @@ class Order extends React.Component {
     return (
       <li
         key={key}
-        classname="text-left"
+        className="text-left"
       >
         <div className="col-xs-2">{count} lbs</div>
         <div className="col-xs-5">{fish.name}</div>
